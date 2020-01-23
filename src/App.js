@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header/header';
 import ImageCard from './components/Image-Card/imageCard';
-import data from "./images.json";
+import data from './images.json';
 
 
 
