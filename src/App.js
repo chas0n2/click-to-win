@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
-import ImageCard from './components/ImageCard';
+import Header from './components/Header/header';
+import ImageCard from './components/Image-Card/imageCard';
 import data from "./images.json";
 
 
