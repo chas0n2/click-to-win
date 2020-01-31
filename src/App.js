@@ -1,17 +1,26 @@
 import React, { Component } from 'react';
 import Header from './components/Header/header';
-import ImageCard from './components/Image-Card/imageCard';
-import data from './images.json';
+import Cards from './components/Card/imageCard/Cards';
+import images from './images';
 
 
 
 class App extends Component {
     state = {
-      data,
       score: 0,
-      images: [],
-      clicked: 0
+      images: images,
+      clicked: 0,
+      message: "Click on an image to begin the game!"
 }
+
+displayImage = arg => {
+    // Filter this.state.friends for friends with an id not equal to the id being removed
+    const images = this.state.images
+    // Set this.state.friends equal to the new friends array
+    this.setState({ images });
+    // console.log("hi",this.state.images);
+  };
+
 
 handleClickEvent = (id) => {
     this.shuffle();
@@ -19,7 +28,7 @@ handleClickEvent = (id) => {
 }
 
 shuffle = () => {
-    let shuffledImages = this.state.data;
+    let shuffledImages = this.state.images;
     shuffledImages = shuffledImages.sort(() => Math.random() - 0.42);
 
     this.setState({
@@ -37,6 +46,7 @@ clicked = (id) => {
 
     console.log(clicked)
     console.log(id)
+    console.log(this.state.images.length)
 
     if(id === clicked) {
         alert("correct")
@@ -67,22 +77,24 @@ clicked = (id) => {
             clicked: 0
         })
     }
-    
+     
 }
-
+// Rendering components to DOM
 render () {
     return (
         <div>
             <Header score = {this.state.score}/>
             <div>
-                {this.state.data.map(item => (
-                    <ImageCard
-                        key={item.id}
-                        id={item.id}
+                {this.state.images.map(image => {
+                    return(
+                    <Cards
+                        key={image.id}
+                        id={image.id}
                         clicked={this.handleClickEvent}
-                        img= {item.img}
+                        image= {image.image}
+                        url={image.img}
                     />
-                ))
+                )})
                 }
             </div>
         </div>

@@ -1,3 +1,5 @@
+let images =
+
 [
     {
         "id": 1,
@@ -50,3 +52,5 @@
         "clicked": false
     }
 ]
+
+export default images;
