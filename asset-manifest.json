@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/clicktowin/static/css/main.e45e0bde.chunk.css",
+    "main.js": "/clicktowin/static/js/main.222e9802.chunk.js",
+    "main.js.map": "/clicktowin/static/js/main.222e9802.chunk.js.map",
+    "runtime-main.js": "/clicktowin/static/js/runtime-main.3e58b81a.js",
+    "runtime-main.js.map": "/clicktowin/static/js/runtime-main.3e58b81a.js.map",
+    "static/js/2.81b75c04.chunk.js": "/clicktowin/static/js/2.81b75c04.chunk.js",
+    "static/js/2.81b75c04.chunk.js.map": "/clicktowin/static/js/2.81b75c04.chunk.js.map",
+    "index.html": "/clicktowin/index.html",
+    "precache-manifest.586e72659c8cfc7f010cf455602db30d.js": "/clicktowin/precache-manifest.586e72659c8cfc7f010cf455602db30d.js",
+    "service-worker.js": "/clicktowin/service-worker.js",
+    "static/css/main.e45e0bde.chunk.css.map": "/clicktowin/static/css/main.e45e0bde.chunk.css.map",
+    "static/js/2.81b75c04.chunk.js.LICENSE": "/clicktowin/static/js/2.81b75c04.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e58b81a.js",
+    "static/js/2.81b75c04.chunk.js",
+    "static/css/main.e45e0bde.chunk.css",
+    "static/js/main.222e9802.chunk.js"
+  ]
+}

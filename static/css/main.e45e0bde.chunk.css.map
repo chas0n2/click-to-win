@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,IACI,gBAAiB,CACjB,WAAY,CACZ,YAAa,CACb,YAAa,CACb,cAAe,CACf,WAAY,CACZ,UAEJ","file":"main.e45e0bde.chunk.css","sourcesContent":["img  {\r\n    object-fit: cover;\r\n    width: 250px;\r\n    height: 250px;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    margin: 10px;\r\n    float: left;\r\n    \r\n}"]}
