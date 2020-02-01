@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header/header';
-import Cards from './components/Card/imageCard/Cards';
+import Cards from './components/Card/imageCard';
 import images from './images';
 
 

@@ -3,52 +3,52 @@ let images =
 [
     {
         "id": 1,
-        "img": "./darthmaul1.jpg",
+        "img": "/images/darthmaul1.jpg",
         "clicked": false
     },
     {
         "id": 2,
-        "img": "./darthvader2.jpg",
+        "img": "/images/darthvader2.jpg",
         "clicked": false
     },
     {
         "id": 3,
-        "img": "./luke3.jpg",
+        "img": "/images/luke3.jpg",
         "clicked": false
     },
     {
         "id": 4,
-        "img": "./jarjar4.jpg",
+        "img": "/images/jarjar4.jpg",
         "clicked": false
     },
     {
         "id": 5,
-        "img": "./hansolo5.jpg",
+        "img": "/images/hansolo5.jpg",
         "clicked": false
     },
     {
         "id": 6,
-        "img": "./leia6.jpg",
+        "img": "/images/leia6.jpg",
         "clicked": false
     },
     {
         "id": 7,
-        "img": "./chewy7.jpg",
+        "img": "/images/chewy7.jpg",
         "clicked": false
     },
     {
         "id": 8,
-        "img": "./yoda9.jpg",
+        "img": "/images/yoda9.jpg",
         "clicked": false
     },
     {
         "id": 9,
-        "img": "./mace10.jpg",
+        "img": "/images/mace10.jpg",
         "clicked": false
     },
     {
         "id": 10,
-        "img": "./bobafett11.jpg",
+        "img": "/images/bobafett11.jpg",
         "clicked": false
     }
 ]
