@@ -14,9 +14,9 @@ class App extends Component {
 }
 
 displayImage = arg => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
+  
     const images = this.state.images
-    // Set this.state.friends equal to the new friends array
+   
     this.setState({ images });
     // console.log("hi",this.state.images);
   };
